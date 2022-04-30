@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li,ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+    color: #333;
+}
+img{
+    display: block;
+}
+input,select,textarea,button{
+    outline: none;
+}
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+}
+
+
+
+/* 头 */
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+header{
+    overflow: initial;
+    background: #fff;   
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.topheader{
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    line-height: 49px;
+    overflow: initial;
+    width: 100%;
+    overflow: hidden;
+}
+.topbarheader{
+    padding-right: 70px;
+    font-size: 14px;
+    color: #999;
+    overflow: initial;
+}
+.topbar{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 20px;
+}
+.topbarheader a{
+    color: #999;
+}
+.topbar-car{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 20px;
+}
+.topbar-car .topbar-icon{
+    background-image: url(https://img.fishfay.com/theme/images/icons/cart-g.svg);
+}
+.topbarheader .topbar-icon{
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    background-position: center center;
+}
+.topbar-car i{
+    display: none;
+}
+.topbarheader>div{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 20px;
+}
+.topbar-ser .topbar-icon{
+    background-image: url(https://img.fishfay.com/theme/images/icons/service-g.svg);
+}
+.topbarheader:last-child{
+    margin-right: 0;
+}
+
+
+/* 导航 */
+
+/* logo */
+.nav-header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 99px;
+    overflow: initial;
+}
+.logo-header{
+    width: 125px;
+    height: 100%;
+}
+.logo-inner{
+    width: 53px;
+    height: 29px;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 34px;
+    overflow: hidden;
+    margin-left: 36px;
+}
+
+/* 文字 */
+.nav-list{
+    margin-right: 70px;
+    overflow: initial;
+}
+.nav-item{
+    display: inline-block;
+    padding: 0 22px;
+    margin-left: -1px;
+    height: 98px;
+    line-height: 98px;
+    vertical-align: middle;
+}
+.nav-item>a{
+    position: relative;
+    display: inline-block;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+.nav-list>.last{
+    margin-right: 0;
+}
+.nav-sear{
+    margin-top: 0;
+    width: 212px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 6px 0;
+}
+.nav-sear .nav-btn{
+    width: 46px;
+    height: 26px;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://img.fishfay.com/theme/images/icons/search-b.svg) no-repeat;
+    background-size: 18px 18px;
+    background-position: center center;
+}
+.nav-sear .nav-input{
+    display: inline-block;
+    border: 0;
+    height: 26px;
+    line-height: 26px;
+    width: 160px;
+    vertical-align: middle;
+    color: #000;
+    font-size: 15px;
+    text-indent: 10px;
+    outline: 0;
+}
+
+
+/* 内容 */
+.main-cont{
+    width: 100%;
+    min-height: calc(100vh - 320px);
+    position: relative;
+    overflow: hidden;
+    padding-top: 22px;
+}
+.w-full{
+    width: 100%;
+    overflow: hidden;
+}
+.pro-main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.w-1280{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background-color: skyblue; */
+    /* height: 800px; */
+}
+.pro-view{
+    width: 740px;
+    /* padding-left: 30px; */
+    /* background-color: pink; */
+    /* height: 500px; */
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.pro-view-l{
+    width: 50px;
+    position: relative;
+    min-height: 645px;
+}
+.small-list ul li{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    position: relative;
+}
+.small-list .i>img{
+    width: 50px;
+    height: 50px;
+}
+
+.pro-oper{
+    position: absolute;
+    width: 50px;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+.pro-oper .pro-share{
+    background-image: url(https://img.fishfay.com/theme/images/antacn/icons/share-cr-bw.svg);
+}
+.pro-oper .pro-collect{
+    background-image: url(https://img.fishfay.com/theme/images/antacn/icons/heart-cr-g.svg);
+    background-size: 22px auto;
+    background-position: center 5px;
+}
+.pro-oper>a{
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+    color: #999;
+    height: 50px;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 13px;
+    background-size: 30px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* margin-top: 9px; */
+}
+
+
+.pro-bigImg{
+    width: 645px;
+    margin-left: 15px;
+    height: 645px;
+    position: relative;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+body img{
+    /* width: 645px;
+    height: 645px; */
+    width: 100%;
+}
+
+
+
+.pro-info{
+    width: 100%;
+    padding-left: 45px;
+    min-height: 645px;
+}
+.pro-info p{
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+}
+.pro-info .goods-name{
+    font-size: 25px;
+    line-height: 40px;
+}
+.pro-info .goods-sn{
+    font-size: 15px;
+}
+.pro-info .goods-price{
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.pro-info h3{
+    font-weight: normal;
+}
+.goods-color{
+    height: 25px;
+}
+.color-list{
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.color-list li{
+    min-height: 80px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+}
+
+.infos-pane{
+    margin: 10px 0;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+.infos-cell{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    height: 30px;
+}
+.infos-cell>div{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    overflow: hidden;
+    color: #999;
+    font-size: 13px;
+    padding-right: 30px;
+    position: relative;
+    cursor: default;
+}
+.infos-cell .half-cell{
+    width: 35%;
+    float: left;
+}
+.infos-cell .half-cell>span{
+    width: 90px;
+}
+.infos-cell>div>span{
+    width: 90px;
+    text-align: left;
+}
+.infos-cell>div>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+.infos-cell>div input{
+    border: 0;
+    height: 30px;
+    width: 80px;
+    padding: 0 10px;
+    line-height: 30px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+div{
+    display: block;
+}
+.icon-right{
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.half-cell .icon-right::before{
+    border-left: 7px solid #666;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    top: 3px;
+    left: 7px;
+    position: absolute;
+    content: '';
+}
+.infos-cell>.line{
+    display: block;
+    float: left;
+    width: 10%;
+    height: 30px;
+    position: relative;
+}
+.infos-cell>.line::before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #999;
+    left: 40%;
+    top: 0;
+}
+.infos-cell .half-cell-b{
+    width: 416px;
+}
+
+.j_infos_b{
+    position: relative;
+}
+.popup-panel{
+    width: 400px;
+    height: 120px;
+    left: 0;
+    bottom: 100%;
+    top: initial;
+    position: absolute;
+    background-color: white;
+}
+.popup-panel{
+    display: none;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 6px 1px rgb(156 156 156 / 40%);
+    -webkit-box-shadow: 0 0 6px 1px rgb(156 156 156 / 40%);
+    -moz-box-shadow: 0 0 6px 1px rgba(156,156,156,.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.panel-close{
+    display: block;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: url(https://img.fishfay.com/theme/images/icons/close-cr-bw.svg) no-repeat;
+    top: 7px;
+    right: 7px;
+    background-size: 100% auto;
+    background-position: center;
+}
+.popup-title{
+    height: 25px;
+    line-height: 25px;
+    color: #666;
+    font-size: 14px;
+}
+.current{
+    display: block;
+}
+.color-sku{
+    cursor: pointer;
+    display: inline-block;
+    height: 36px;
+    border: 1px solid #ccc;
+    line-height: 34px;
+    width: 50px;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    margin: 5px 5px 5px 0;
+    position: relative;
+}
+.color-sku>a{
+    color: #000;
+}
+
+
+.num-panel{
+    width: 200px;
+    height: 200px;
+    left: 55%;
+    top: -60px;
+    bottom: 100%;
+    padding: 10px;
+    z-index: 999;
+}
+.pro-num-list{
+    max-height: 200px;
+    overflow-y: auto;
+}
+.pro-num-list>li{
+    border: 1px solid #eee;
+    height: 34px;
+    line-height: 32px;
+    width: 80%;
+    cursor: pointer;
+    margin: 5px auto;
+    text-align: center;
+}
+
+
+
+.goods-btn>a{
+    height: 60px;
+    line-height: 58px;
+    display: block;
+    width: 45%;
+    text-align: center;
+    border: 1px solid #666;
+    color: #000;
+    font-size: 17px;
+    margin-top: 10px;
+    background: #fff;
+}
+.goods-btn>.btn-buy{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+
+
+.pro-tabs{
+    margin-bottom: 20px;
+}
+.w-1650{
+    width: 1650px;
+    margin-left: -825px;
+    left: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.pro-tabs .pro-tab-l{
+    color: #000;
+    text-align: right;
+}
+.pro-tabs>div{
+    float: left;
+    font-size: 30px;
+    display: block;
+    width: 50%;
+    height: 200px;
+    padding: 80px 0;
+    color: #999;
+    letter-spacing: 1px;
+    position: relative;
+    border-bottom: 1px solid #999;
+    text-align: right;
+}
+.pro-tabs>div>*{
+    display: inline-block;
+}
+.pro-tabs>div>p{
+    width: 550px;
+    text-align: center;
+}
+.pro-tabs>div span{
+    position: relative;
+    display: inline-block;
+    cursor: default;
+}
+.pro-tabs>.pro-tab-l span::before{
+    content: '';
+    height: 3px;
+    width: 50px;
+    background: #000;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+.pro-tabs>.pro-tab-l>i{
+    display: block;
+    position: absolute;
+    top: 179px;
+    right: 260px;
+    height: 40px;
+    width: 40px;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    transform: rotate(45deg);
+    background: #fff;
+}
+
+
+.pro-deta{
+    margin: 0 auto;
+    text-align: center;
+}
+.w-1280{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.pro-deta img{
+    display: inline;
+    width: auto;
+    border: 0;
+    display: block !important;
+    margin: 0 auto;
+}
+
+
+
+/* 尾部 */
+.footer{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 50px;
+    width: 100%;
+}
+.ft-inner{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ft-slo{
+    width: 250px;
+    text-align: center;
+    padding-top: 20px;
+}
+.ft-slo img{
+    width: auto;
+}
+.ft-main{
+    min-width: 900px;
+    max-width: 900px;
+}
+.ft-link li:first-child{
+    border-left: 0;
+}
+.ft-link li{
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid #fff;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+}
+.footer a{
+    color: #fff;
+}
+.ft-com{
+    padding-left: 15px;
+    margin: 15px 0 40px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+}
+.ft-com span{
+    font-size: 14px;
+}
+.ft-com a{
+    margin-right: 10px;
+}
+
+
+
+
+/* 侧边 */
+.webcover{
+    background: url(https://img.fishfay.com/theme/images/icons/web-cover.svg) no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    z-index: 999;
+    position: fixed;
+    right: 50px;
+    bottom: 60px;
+    width: 60px;
+    height: 275px;
+}
+.goto-top{
+    top: 0;
+}
+.webcover>div,.webcover>a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 33.33%;
+    right: initial;
+    bottom: initial;
+    left: 0;
+    cursor: pointer;
+}
+.covercar{
+    top: 33.33%;
+}
+.coverkefu{
+    top: 66.66%;
+}

@@ -1,0 +1,131 @@
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    background: url(https://img.fishfay.com/theme/images/antacn/login/login-01.jpg) no-repeat;
+    background-size: 100% auto;
+}
+.wrap{
+    padding-bottom: 1px;
+    padding-top: 50px;
+}
+.layout{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 500px;
+    margin: 0 100px 50px auto;
+    float: right;
+    position: relative;
+    padding: 0 20px 30px;
+    min-height: 500px;
+}
+.mainbox{
+    padding-bottom: 30px;
+}
+.lgheader{
+    height: 70px !important;
+}
+.header_tit{
+    padding: 50px 0 22px;
+    text-align: center;
+}
+
+
+.login-area{
+    width: 358px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.login-tabs{
+    margin-bottom: 10px;
+}
+.c_b{
+    zoom: 1;
+}
+.log-input{
+    position: relative;
+}
+.single-img{
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.na-img-area{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e3e3e3;
+    border-radius: 50%;
+    padding: 4px;
+    background: #fff;
+    position: relative;
+    z-index: 4;
+    margin: 0 auto;
+}
+.na-img-bg:empty{
+    background: url(http://img.anta.cn/images/wap/passport/n-avator-bg.png) 0 0 no-repeat;
+}
+.na-img-bg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.single-img .ue-name{
+    padding-top: 10px;
+}
+
+
+.login-user{
+    display: -webkit-box;
+    display: box;
+}
+.labelbox{
+    display: block;
+    margin-bottom: 14px;
+    padding: 0;
+    border: 1px solid #e0e0e0;
+}
+.labelbox input{
+    width: 100%;
+    height: 42px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+}
+.wrapper input{
+    background: none;
+    border: 0 none;
+}
+.wrapper input{
+    font-size: 100%;
+    font-family: arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    outline: none;
+}
+.item-acc{
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    float: none;
+}
+.eye-panel{
+    display: none;
+}
+
+
+.btns{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.wrapper .btnadpt{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: #000;
+}

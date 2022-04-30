@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li,ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+    color: #333;
+}
+img{
+    display: block;
+    width: 100%;
+}
+input,select,textarea,button{
+    outline: none;
+}
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+}
+
+
+
+/* 头 */
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+header{
+    overflow: initial;
+    background: #fff;   
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.topheader{
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    line-height: 49px;
+    overflow: initial;
+    width: 100%;
+    overflow: hidden;
+}
+.topbarheader{
+    padding-right: 70px;
+    font-size: 14px;
+    color: #999;
+    overflow: initial;
+}
+.topbar{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 20px;
+}
+.topbarheader a{
+    color: #999;
+}
+.topbar-car{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 20px;
+}
+.topbar-car .topbar-icon{
+    background-image: url(https://img.fishfay.com/theme/images/icons/cart-g.svg);
+}
+.topbarheader .topbar-icon{
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    background-position: center center;
+}
+.topbar-car i{
+    display: none;
+}
+.topbarheader>div{
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 20px;
+}
+.topbar-ser .topbar-icon{
+    background-image: url(https://img.fishfay.com/theme/images/icons/service-g.svg);
+}
+.topbarheader:last-child{
+    margin-right: 0;
+}
+
+
+/* 导航 */
+
+/* logo */
+.nav-header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 99px;
+    overflow: initial;
+}
+.logo-header{
+    width: 125px;
+    height: 100%;
+}
+.logo-inner{
+    width: 53px;
+    height: 29px;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 34px;
+    overflow: hidden;
+    margin-left: 36px;
+}
+
+/* 文字 */
+.nav-list{
+    margin-right: 70px;
+    overflow: initial;
+}
+.nav-item{
+    display: inline-block;
+    padding: 0 22px;
+    margin-left: -1px;
+    height: 98px;
+    line-height: 98px;
+    vertical-align: middle;
+}
+.nav-item>a{
+    position: relative;
+    display: inline-block;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+.nav-list>.last{
+    margin-right: 0;
+}
+.nav-sear{
+    margin-top: 0;
+    width: 212px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 6px 0;
+}
+.nav-sear .nav-btn{
+    width: 46px;
+    height: 26px;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://img.fishfay.com/theme/images/icons/search-b.svg) no-repeat;
+    background-size: 18px 18px;
+    background-position: center center;
+}
+.nav-sear .nav-input{
+    display: inline-block;
+    border: 0;
+    height: 26px;
+    line-height: 26px;
+    width: 160px;
+    vertical-align: middle;
+    color: #000;
+    font-size: 15px;
+    text-indent: 10px;
+    outline: 0;
+}
+
+
+
+/* 内容 */
+.main-cont{
+    width: 100%;
+    min-height: calc(100vh - 320px);
+    position: relative;
+    overflow: hidden;
+}
+.cart-main{
+    margin-bottom: 50px;
+}
+.cart-main{
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.cart-title{
+    height: 50px;
+    line-height: 50px;
+}
+.cart-title span{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    color: #000;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.cart-title span::before{
+    content: '';
+    height: 4px;
+    width: 55px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cart-title i{
+    font-style: normal;
+    color: #999;
+    margin-left: 10px;
+    vertical-align: bottom;
+    display: inline-block;
+    line-height: 35px;
+    font-size: 12px;
+}
+.cart-top{
+    margin: 5px 0 15px;
+}
+.checkbox-input{
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.checkbox-label i{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 1px solid #111;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+}
+.cart-tabel{
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.td-check{
+    width: 40px;
+}
+.cart-tabel td{
+    padding: 20px 0;
+    border-bottom: 1px solid #c3c3c3;
+}
+label{
+    cursor: default;
+}
+td .td-img{
+    width: 150px;
+}
+.td-img img{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+td .td-infos{
+    width: 1010px;
+}
+.td-infos .fl{
+    width: 900px;
+}
+.td-infos h5{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    line-height: 30px;
+}
+.td-infos p span:first-child{
+    margin-left: 0;
+}
+.td-infos p span{
+    margin: 0 7px;
+}
+.td-infos .fr{
+    width: 100px;
+    text-align: right;
+}
+.td-infos .infos-price{
+    display: block;
+    color: #000;
+    font-size: 16px;
+}
+.td-infos p{
+    font-size: 13px;
+    line-height: 22px;
+    color: #777;
+}
+.num-minus{
+    display: inline-block;
+    height: 26px;
+    width: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #999;
+}
+.num-input{
+    outline: 0;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    margin-right: -1px;
+    height: 26px;
+    text-align: center;
+    width: 80px;
+    vertical-align: middle;
+}
+.num-plus{
+    display: inline-block;
+    height: 26px;
+    width: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #999;
+}
+.td-infos .delete-one{
+    color: #777;
+    font-size: 13px;
+}
+
+
+
+
+
+/* 尾部 */
+.footer{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 50px;
+    width: 100%;
+}
+.ft-inner{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ft-slo{
+    width: 250px;
+    text-align: center;
+    padding-top: 20px;
+}
+.ft-slo img{
+    width: auto;
+}
+.ft-main{
+    min-width: 900px;
+    max-width: 900px;
+}
+.ft-link li:first-child{
+    border-left: 0;
+}
+.ft-link li{
+    display: inline-block;
+    padding: 0 15px;
+    border-left: 1px solid #fff;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+}
+.footer a{
+    color: #fff;
+}
+.ft-com{
+    padding-left: 15px;
+    margin: 15px 0 40px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+}
+.ft-com span{
+    font-size: 14px;
+}
+.ft-com a{
+    margin-right: 10px;
+}
+
+
+
+
+/* 侧边 */
+.webcover{
+    background: url(https://img.fishfay.com/theme/images/icons/web-cover.svg) no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    z-index: 999;
+    position: fixed;
+    right: 50px;
+    bottom: 60px;
+    width: 60px;
+    height: 275px;
+}
+.goto-top{
+    top: 0;
+}
+.webcover>div,.webcover>a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 33.33%;
+    right: initial;
+    bottom: initial;
+    left: 0;
+    cursor: pointer;
+}
+.covercar{
+    top: 33.33%;
+}
+.coverkefu{
+    top: 66.66%;
+}
