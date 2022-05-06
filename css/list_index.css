@@ -504,16 +504,18 @@ header{
 .goods-list{
     float: left;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .goods-item{
     position: relative;
     float: left;
-   /*  width: 250px;
-    height: 310px; */
-    display: flex;
-    flex-wrap: wrap;
-
-    /* background-color: pink; */
+    width: 250px;
+    height: 310px;
+   margin-top: 60px;
+}
+.goods-item img{
+    width: 100%;
 }
 .goods-body{
     padding: 15px;

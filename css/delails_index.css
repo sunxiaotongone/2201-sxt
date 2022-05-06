@@ -266,21 +266,113 @@ header{
 }
 
 
-.pro-bigImg{
+/* .pro-bigImg{
     width: 645px;
     margin-left: 15px;
     height: 645px;
     position: relative;
     border: 1px solid #eee;
-    overflow: hidden;
+    /* overflow: hidden; */
+/* }
+.box{
+    width: 645px;
+    height: 645px;
+    top: 10px;
+    left: 10px;
+    position: relative;
+} */
+/* .bigImg-box{
+    position: relative;
+}
+.bigImg-box img{
+    position: absolute;
 }
 body img{
     /* width: 645px;
     height: 645px; */
-    width: 100%;
-}
+    /* width: 100%;  */
 
+/* .mask {
+    width: 300px;
+    height: 300px;
+    background: rgba(2, 8, 8, 0.09);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: move;
+    display: none;
+} */
+/* .bigImg-box-e{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 22px;
+    left: 700px;
+    /* overflow: hidden; */
+    /* display: none; */
+    /* z-index: 99; */
 
+/* .bigImg-box-e>img{
+    position: absolute;
+    width: 800px;
+}  */
+
+img {
+    display: block;
+    
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .box {
+    width: 645px;
+    height: 645px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    position: relative;
+    z-index: 99999;
+  }
+
+  .big {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 630px;
+    overflow: hidden;
+    display: none;
+    z-index: 99;
+  }
+
+  .big img {
+    position: absolute;
+    z-index: 100;
+  }
+  .small img{
+ width: 100%;
+ /* width: 600px;
+    height: 600px; */
+  }
+
+  .mask {
+    width: 175px;
+    height: 175px;
+    background: rgba(255, 255, 0, 0.4);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: move;
+    display: none;
+  }
+
+  .small {
+    position: relative;
+    z-index: 99;
+  }
 
 .pro-info{
     width: 100%;
@@ -347,7 +439,7 @@ body img{
     height: 30px;
     line-height: 30px;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     color: #999;
     font-size: 13px;
     padding-right: 30px;
@@ -400,6 +492,74 @@ div{
     left: 7px;
     position: absolute;
     content: '';
+}
+.half-cell .chima{
+    position: absolute; 
+    background-color: white;
+    z-index: 99;
+    width: 300px;
+    height: 130px; 
+    top:-143px;
+    border: 1px solid #999;
+    display: none;
+}
+.chima li{
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    margin: 5px;
+    border: 1px solid #999;
+}
+.chima p{
+    margin:10px 0 15px 5px; 
+}
+.chima span{
+    position: absolute;
+    right: -5px;
+    font-size: 15px;
+    line-height: 1;
+    top: -10px;
+    border: 1px solid #999;
+    background-color: #ccc;
+    color: white;
+}
+.half-cell .goods-num{
+    position: absolute; 
+    background-color: white;
+    z-index: 99;
+    width: 150px;
+    height: 200px; 
+    top:-213px;
+    border: 1px solid #999;
+    display: none;
+}
+.goods-num p{
+    margin:10px 0 15px 5px; 
+    text-align: center;
+}
+.goods-num span{
+    position: absolute;
+    right: -5px;
+    font-size: 15px;
+    line-height: 1;
+    top: -10px;
+    border: 1px solid #999;
+    background-color: #ccc;
+    color: white;
+}
+.goods-num li>a{
+    display: block;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: auto;
+    width: 120px;
+    height: 25px;
+    margin-bottom: 3px;
+    text-align: center;
+    color: red;
+    color: #333;
 }
 .infos-cell>.line{
     display: block;

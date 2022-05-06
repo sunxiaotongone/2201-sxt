@@ -234,13 +234,13 @@ header{
 .cart-top{
     margin: 5px 0 15px;
 }
-.checkbox-input{
+/* .checkbox-input{
     width: 0;
     height: 0;
     margin: 0;
     padding: 0;
     border: 0;
-}
+} */
 .checkbox-label i{
     display: inline-block;
     height: 15px;
@@ -402,6 +402,59 @@ td .td-infos{
 }
 .ft-com a{
     margin-right: 10px;
+}
+.cart-foot {
+    position: fixed;
+    height: 70px;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1280px;
+    border-top: 1px solid #5d5d5d;
+    bottom: 0;
+    left: 0;
+    background: #292929;
+    background: rgba(41, 41, 41, 0.9);
+    color: #fff;
+}
+.w-1280 {
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sum-infos {
+    width: 1000px;
+    margin-right: 20px;
+    margin-top: 15px;
+    line-height: 40px;
+}
+.fl {
+    float: left;
+}
+.sum-operate>label, .sum-operate>a {
+    margin-right: 15px;
+}
+/* input.checkbox-input {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+.sum-operate>a {
+    margin-right: 15px;
+}
+.cart-foot a {
+    color: #fff;
+}
+.sum-to-settle>a {
+    display: block;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background: #ed4025;
+    line-height: 40px;
+    font-size: 15px;
+    margin-top: 15px;
 }
 
 
